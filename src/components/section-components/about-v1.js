@@ -13,8 +13,8 @@ const AboutV1 =()=>{
 		const FetchData = async()=>{
 			const response = await fetch(publicUrl);
 			const result = await response.json();
-			setData(result.savedAboutUs[0]);
-			setArr(result.savedAboutUs[0].Services);
+			// setData(result.savedAboutUs[0]);
+			// setArr(result.savedAboutUs[0].Services);
 		}
 		
 		useEffect(()=>{

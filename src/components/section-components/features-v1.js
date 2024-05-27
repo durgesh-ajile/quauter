@@ -19,11 +19,11 @@ const FeaturesV1 =()=> {
 
       console.log(result)
 
-       setData(result.savedGetOurMainFocus[0].Tile);
-       setTitle0(result.savedGetOurMainFocus[0].Tile[0]);
-       setTitle1(result.savedGetOurMainFocus[0].Tile[1]);
-       setTitle2(result.savedGetOurMainFocus[0].Tile[2]);
-       setTitle3(result.savedGetOurMainFocus[0].Tile[3]);
+      //  setData(result.savedGetOurMainFocus[0].Tile);
+      //  setTitle0(result.savedGetOurMainFocus[0].Tile[0]);
+      //  setTitle1(result.savedGetOurMainFocus[0].Tile[1]);
+      //  setTitle2(result.savedGetOurMainFocus[0].Tile[2]);
+      //  setTitle3(result.savedGetOurMainFocus[0].Tile[3]);
     }
   
     useEffect(()=>{

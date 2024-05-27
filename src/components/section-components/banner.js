@@ -25,6 +25,7 @@ const Banner = () => {
   let publicUrl = process.env.REACT_APP_URL + "/getHeaderOne";
     // let publicUrl2 = process.env.REACT_APP_URL + "/getHeaderTwo"
 
+    console.log(publicUrl)
   const FetchData = async () => {
     const response = await fetch(publicUrl);
     // const response2 = await fetch(publ+icUrl2);/

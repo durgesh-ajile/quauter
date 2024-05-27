@@ -15,10 +15,10 @@ const AboutV2 = () => {
     const response = await fetch(publicUrl);
     const result = await response.json();
     // console.log(result);
-    setData(result.savedAboutUsTwo[0]);
-    setservices(result.savedAboutUsTwo[0].Services);
-    setsubservices(result.savedAboutUsTwo[0].SubServices);
-    setImages(result.savedAboutUsTwo[0].SubImages);
+    // setData(result.savedAboutUsTwo[0]);
+    // setservices(result.savedAboutUsTwo[0].Services);
+    // setsubservices(result.savedAboutUsTwo[0].SubServices);
+    // setImages(result.savedAboutUsTwo[0].SubImages);
   };
 
   useEffect(() => {
